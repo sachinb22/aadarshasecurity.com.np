@@ -1,0 +1,63 @@
+p {
+  color: #262626 !important;
+}
+
+.feature .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  background: rgba(247, 248, 250, 0.5);
+  box-shadow: 0px 1px 4px rgba(51, 177, 224, 0.25),
+    32px 32px 100px rgba(30, 39, 51, 0.2);
+  backdrop-filter: blur(21.7463px);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 3px solid rgba(247, 248, 250, 0.5);
+}
+.feature .icon-box:hover {
+  transform: translateY(-5px);
+  border-bottom: 3px solid #1271b9;
+}
+.feature .icon {
+  border-radius: 50%;
+  margin: 10px auto;
+}
+.feature .icon i {
+  font-size: 32px;
+  color: #1271b9;
+}
+.feature .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.feature .title a {
+  color: #242424;
+}
+.feature .title a:hover {
+  color: #e45f4e;
+}
+.feature .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.Topnavbar-bg {
+  background: #1271b9;
+}
+.navbar-bg {
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 2px 15px rgba(26, 157, 232, 0.1);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+}
+.navbar-nav a {
+  color: #262626 !important;
+  font-weight: 700;
+}
+.navbar-nav a.active {
+  color: #e45f4e !important;
+}
